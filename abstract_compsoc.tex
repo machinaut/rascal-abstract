@@ -67,7 +67,7 @@
 %
 % The Computer Society usually requires 12pt for submissions.
 %
-\documentclass[12pt,journal,compsoc]{IEEEtran}
+\documentclass[letterpaper,12pt,journal,compsoc]{IEEEtran}
 %
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
@@ -84,6 +84,7 @@
 % *** MISC UTILITY PACKAGES ***
 %
 \usepackage{ifpdf}
+\usepackage{wrapfig}
 % Heiko Oberdiek's ifpdf.sty is very useful if you need conditional
 % compilation based on whether the output is pdf or dvi.
 % usage:
@@ -642,8 +643,17 @@ Crew living space, however, benefits most from a disc-shaped design. This shape 
 
 This will result in designing three major material layers: an outermost modular radiation protection layer, a low-pressure (20 kPa) dome layer, and an innermost high-pressure (50 kPa) cabin layer. Each layer consists of a combination of materials with different useful properties, including Vectran for tensile strength, gilded BoPET for UV protection, and Demron for radiation attenuation. The outermost layer (which is primarily for radiation protection) will also make use of Martian regolith via modular shield pods to be filled for long-duration Mars missions. In order to test the capabilities of each layer, example swatches will be made and put through two types of experiments. First, tensile strength tests will be done to insure the materials can withstand the forces caused by the high pressure differential. And second, each material’s radiation attenuation will be characterised through the use of a gamma ray emitter.
 
+%\begin{wrapfigure}[9]{l}[-1.5em]{0pt}
 Finally, a flexible structure allows for the design and use of an inflatable airlock.  Current airlock technology involves pumping air out of a sealed rigid structure.  On the Space Shuttle, 10\% of the air in the airlock is lost each opening cycle, representing a drain on oxygen and buffer gases in the life support system \cite{RefWorks:23}. We will develop a prototype two-person inflatable airlock that will take advantage of the fabric technology used in the habitat. For any long-term mission, this improved airlock will greatly reduce losses of non-replenishable gases while maintaining the safety provided by a two-person design.
 
+\begin{figure}
+\centering
+\subfigure[Dome Exterior Layers]{\label{fig_ext}\includegraphics[width=3.5in]{Dome_Exterior_Layers.jpg}}
+\subfigure[Dome Interior Layers]{\label{fig_int}\includegraphics[width=3.5in]{Dome_Interior_Layers.jpg}}
+\subfigure[Dome Shield Pods]{\label{fig_mod}\includegraphics[width=3.5in]{Dome_ModShieldPods.jpg}}
+\caption{Dome Construction}
+\label{fig_dome_construction}
+\end{figure}
 \subsection{Sabatier Reactor Catalyst}
 Launching a mission to Mars with bulk supplies of oxygen and water is infeasible due to weight and space constraints. Current studies on the longevity and reliability of reclamation and filtration techniques show that these processes alone are not sufficient to provide these necessary resources.  Furthermore, the atmosphere on Mars is thin and has very little oxygen. Carbon dioxide, however, is abundant comprising 95\% of the atmosphere \cite{RefWorks:21}. It then becomes an obvious solution to convert this carbon dioxide into water and oxygen. Two of the most commonly discussed chemical reactions that utilize carbon dioxide as a reactant to produce water are the Bosch reaction and the Sabatier reaction. The Bosch reaction is problematic because of carbon buildup, but the Sabatier reaction has been tested and examined by NASA for decades.
 
