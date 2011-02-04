@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: abstract_compsoc.aux
+The style file: IEEEtran.bst
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: IEEEabrv.bib
+Database file #2: abstract_compsoc.bib
+-- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing publisher in RefWorks:21
+
+Done.
+You've used 5 entries,
+            4024 wiz_defined-function locations,
+            1208 strings with 15603 characters,
+and the built_in function-call counts, 2704 in all, are:
+= -- 204
+> -- 56
+< -- 15
++ -- 30
+- -- 10
+* -- 136
+:= -- 448
+add.period$ -- 9
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 36
+cite$ -- 6
+duplicate$ -- 202
+empty$ -- 232
+format.name$ -- 13
+if$ -- 589
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 36
+newline$ -- 40
+num.names$ -- 4
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 205
+stack$ -- 0
+substring$ -- 85
+swap$ -- 143
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 5
+warning$ -- 1
+while$ -- 7
+width$ -- 6
+write$ -- 66
+(There was 1 warning)
